@@ -88,4 +88,6 @@
 
 ## 版权与授权
 
-本课程材料版权归 OpenDataLab 团队所有。
+本课程材料版权归 OpenDataLab 团队所有，采用 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) 授权。
+
+你可以在非商业场景下分享、改编本材料，但需要保留署名，并以相同协议共享改编后的内容。

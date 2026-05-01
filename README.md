@@ -88,6 +88,8 @@ Issues and pull requests are welcome for:
 - Course practice cases, FAQs, and troubleshooting experience
 - Evaluation data, evaluation scripts, or model comparison results
 
-## Copyright
+## License
 
-The course materials are copyrighted by the OpenDataLab team.
+Copyright (c) 2026 OpenDataLab.
+
+This course material is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
