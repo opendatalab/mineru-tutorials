@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Source files archived locally
+DOCX文档源文件/
+PPT课件源文件/
+视频源文件/
+
+# Binary source/media formats
+*.docx
+*.pptx
+*.mp4
+*.mov
