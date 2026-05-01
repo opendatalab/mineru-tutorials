@@ -2,7 +2,7 @@
 
 English | [简体中文](./README_zh-CN.md)
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/opendatalab/mineru-tutorials)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nanhongchuan/mineru-tutorials)
 
 This repository contains the course materials for the MinerU Training Camp. The curriculum covers MinerU product selection, local and containerized deployment, online API usage, model fine-tuning, OpenClaw Skill development, AI Agent building, and document parsing evaluation based on OmniDocBench, Dingo, and WebMainBench.
 

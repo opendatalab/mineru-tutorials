@@ -2,7 +2,7 @@
 
 [English](./README.md) | 简体中文
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/opendatalab/mineru-tutorials)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nanhongchuan/mineru-tutorials)
 
 本仓库整理了 MinerU 实战训练营的课程材料，覆盖 MinerU 产品选型、本地与容器化部署、在线 API 调用、模型微调、OpenClaw Skill 开发、AI Agent 搭建，以及基于 OmniDocBench、Dingo、WebMainBench 的文档解析质量评测。
 
