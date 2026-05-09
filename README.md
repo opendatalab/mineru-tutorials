@@ -2,7 +2,7 @@
 
 English | [简体中文](./README_zh-CN.md)
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nanhongchuan/mineru-tutorials)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/opendatalab/mineru-tutorials)
 
 Join our [training camp WeChat group](https://mineru.net/community-portal/?aliasId=794b55ee) for discussion and support.
 

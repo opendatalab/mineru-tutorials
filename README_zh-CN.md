@@ -2,7 +2,7 @@
 
 [English](./README.md) | 简体中文
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nanhongchuan/mineru-tutorials)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/opendatalab/mineru-tutorials)
 
 欢迎加入我们的 [训练营微信群](https://mineru.net/community-portal/?aliasId=794b55ee) 交流学习。
 
