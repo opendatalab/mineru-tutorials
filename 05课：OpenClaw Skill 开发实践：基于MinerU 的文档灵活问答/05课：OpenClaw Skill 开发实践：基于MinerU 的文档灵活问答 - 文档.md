@@ -9,12 +9,14 @@
 <td style="text-align: left;"><p><strong>简介</strong></p>
 <p>MinerU Document Extractor 是上海人工智能实验室 OpenDataLab
 出品的文档智能提取工具MinerU的官方Skill ，支持
-PDF、Word、PPT、图片、HTML、网页 URL 等多格式一键转
-Markdown/HTML/LaTeX/DOCX/JSON，内置表格识别、公式识别、OCR 扫描件识别和
-80+ 语言支持。</p>
-<p>该 Skill 有两种模式：flash-extract（免 Token、10MB/20页限制、快速输出
-Markdown）和 extract（需要 Token、无文件限制、vlm
-高精度模型、多格式输出、批量处理）。上述两种模式都能够一键将文档提取成干净的结构化文本。</p>
+PDF、Word、PPT、图片、HTML、网页 URL
+等多格式一键和转换为Markdown/HTML/LaTeX/DOCX/JSON，内置表格识别、公式识别、OCR
+扫描件识别和 80+ 语言支持。</p>
+<p>该 Skill 有两种模式：</p>
+<p>flash-extract（免 Token、10MB/20页限制、快速输出 Markdown）和
+extract（需要 Token、无文件限制、vlm
+高精度模型、多格式输出、批量处理）。</p>
+<p>上述两种模式都能够一键将文档提取成干净的结构化文本。</p>
 <p><strong>ClawHub
 托管平台：</strong>https://clawhub.ai/mineru-extract/mineru-document-extractor</p>
 <p><strong>GitHub
@@ -132,11 +134,80 @@ B. 项目局部安装
 </tbody>
 </table>
 
+3\. **快速开始**
+
+3.1 **飞书场景**
+
+自然语言安装：
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;">Plain Text<br />
+@你的龙虾，帮我在clawhub 安装mineru document extractor skills</td>
+</tr>
+</tbody>
+</table>
+
+<img
+src="05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答 - 文档 - media/media/image1.png"
+style="width:3.89583in;height:1.64583in" />
+
+然后对话框提出任务指令：
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;">Plain Text<br />
+@你的小龙虾
+帮我解析上面的pdf后把解析的markdown等文件打包成一个压缩包发我一下</td>
+</tr>
+</tbody>
+</table>
+
+<img
+src="05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答 - 文档 - media/media/image2.png"
+style="width:3.40625in;height:1.97917in" />
+
+3.2 **Openclaw Tui 场景**
+
+<img
+src="05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答 - 文档 - media/media/image3.png"
+style="width:4.14583in;height:2.15625in" />
+
+3.3 **解析案例**
+
+3.3.1 **解析公式**
+
+|  |  |
+|:--:|:---|
+| <img
+src="05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答 - 文档 - media/media/image4.jpeg"
+style="width:1.14583in;height:1.13542in" /> | <img
+src="05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答 - 文档 - media/media/image5.jpeg"
+style="width:1.17708in;height:1.79167in" /> |
+
+3.3.2 **解析公式**
+
+|  |  |
+|:--:|:---|
+| <img
+src="05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答 - 文档 - media/media/image6.png"
+style="width:1.55208in;height:1.39583in" /> | <img
+src="05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答 - 文档 - media/media/image7.png"
+style="width:1.8125in;height:2.14583in" /> |
+
 **二、MinerU Skill 能力范围**
 
 在写 Skill 之前，先搞清楚这个工具能做什么、不能做什么。
 
-3\. **支持的输入与输出**
+1\. **支持的输入与输出**
 
 |              |                             |
 |:------------:|:---------------------------:|
@@ -153,13 +224,13 @@ B. 项目局部安装
 |      JSON       |    结构化内容列表，适合二次处理    |
 | DOCX/HTML/LaTeX | 精准解析模式的额外格式（需 Token） |
 
-4\. **两种模式：选哪个**
+2\. **两种模式：选哪个**
 
 这是 MinerU Skill 最核心的决策点。理解两种模式的差异，是写好 Skill
 的前提： 明确cli工具的能力边界。
 
 |  |  |  |
-|:---|:---|:---|
+|:--:|:--:|:--:|
 | **对比项** | **flash-extract（轻量）** | **extract（精准）** |
 | 是否需要 Token | **不需要**，按 IP 限流 | **需要** MinerU Token |
 | 文件大小限制 | ≤ 10 MB | ≤ 200 MB |
@@ -169,7 +240,7 @@ B. 项目局部安装
 | 输出格式 | 仅 Markdown | Markdown + JSON + docx/html/latex |
 | 适合场景 | 快速预览、小文件、AI Agent | 大文件、批量、高精度 |
 
-5\. **模式选择决策树**
+3\. **模式选择决策树**
 
 <table>
 <colgroup>
@@ -216,7 +287,7 @@ extract 内部还有一层模型选择：<br />
 把这个决策树写进 Skill，OpenClaw 就能自动替用户做判断，这是 Skill
 最有价值的部分之一。
 
-**三、高质量 Skill 的结构**
+**三、高质量 Skill 的结构分析**
 
 一个 Skill 本质上是一个特殊格式的 Markdown
 文件（SKILL.md）。写好它需要理解每个字段的作用。
