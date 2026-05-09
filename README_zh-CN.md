@@ -4,6 +4,8 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nanhongchuan/mineru-tutorials)
 
+欢迎加入我们的 [训练营微信群](https://mineru.net/community-portal/?aliasId=794b55ee) 交流学习。
+
 本仓库整理了 MinerU 实战训练营的课程材料，覆盖 MinerU 产品选型、本地与容器化部署、在线 API 调用、模型微调、OpenClaw Skill 开发、AI Agent 搭建，以及基于 OmniDocBench、Dingo、WebMainBench 的文档解析质量评测。
 
 课程材料包括：
@@ -11,8 +13,6 @@
 - 课程文档：Markdown 格式，便于在线阅读、检索和维护
 - 课程课件：PDF 格式，便于预览和分享
 - 课程视频：B 站合集链接，便于在线播放
-
-欢迎加入我们的训练营 [微信](https://mineru.net/community-portal/?aliasId=794b55ee) 社群交流学习。
 
 ## 适合人群
 
@@ -71,7 +71,7 @@
 - [MinerU GitHub 仓库](https://github.com/opendatalab/MinerU)
 - [MinerU Open API 文档](https://mineru.net/apiManage/docs)
 - [MinerU 生态工具](https://mineru.net/ecosystem)
-- [微信](https://mineru.net/community-portal/?aliasId=794b55ee)
+- [训练营微信群](https://mineru.net/community-portal/?aliasId=794b55ee)
 - [OmniDocBench](https://github.com/opendatalab/OmniDocBench)
 - [Dingo](https://github.com/MigoXLab/dingo)
 - [WebMainBench](https://github.com/opendatalab/WebMainBench/)

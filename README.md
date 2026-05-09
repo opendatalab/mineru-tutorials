@@ -4,6 +4,8 @@ English | [简体中文](./README_zh-CN.md)
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nanhongchuan/mineru-tutorials)
 
+Join our [training camp WeChat group](https://mineru.net/community-portal/?aliasId=794b55ee) for discussion and support.
+
 This repository contains the course materials for the MinerU Training Camp. The curriculum covers MinerU product selection, local and containerized deployment, online API usage, model fine-tuning, OpenClaw Skill development, AI Agent building, and document parsing evaluation based on OmniDocBench, Dingo, and WebMainBench.
 
 Course materials include:
@@ -11,8 +13,6 @@ Course materials include:
 - Course notes in Markdown for online reading, search, and maintenance
 - Slide decks in PDF format for preview and sharing
 - Video links to the Bilibili course collection
-
-Join our training camp [WeChat](https://mineru.net/community-portal/?aliasId=794b55ee) group for discussion and support.
 
 ## Audience
 
@@ -73,7 +73,7 @@ We recommend following the course order:
 - [MinerU GitHub Repository](https://github.com/opendatalab/MinerU)
 - [MinerU Open API Documentation](https://mineru.net/apiManage/docs)
 - [MinerU Ecosystem](https://mineru.net/ecosystem)
-- [WeChat](https://mineru.net/community-portal/?aliasId=794b55ee)
+- [Training Camp WeChat Group](https://mineru.net/community-portal/?aliasId=794b55ee)
 - [OmniDocBench](https://github.com/opendatalab/OmniDocBench)
 - [Dingo](https://github.com/MigoXLab/dingo)
 - [WebMainBench](https://github.com/opendatalab/WebMainBench/)
