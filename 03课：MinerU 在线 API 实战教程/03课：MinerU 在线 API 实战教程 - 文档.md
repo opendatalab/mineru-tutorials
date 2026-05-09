@@ -141,7 +141,7 @@ URL 任务提交接口仅支持传入文件链接，不支持直接上传文件
 </colgroup>
 <tbody>
 <tr>
-<td style="text-align: center;"><img src="03课：MinerU 在线 API 实战教程/03课：MinerU 在线 API 实战教程 - 文档 - media/media/image1.png" style="width:2.44792in;height:1.40625in" /></td>
+<td style="text-align: center;"><img src="03课：MinerU 在线 API 实战教程 - 文档 - media/media/image1.png" style="width:2.44792in;height:1.40625in" /></td>
 <td style="text-align: left;"><p>*_content_list.json：以段落为单位的json</p>
 <p>*_model.json: 模型返回的原始json</p>
 <p>content_list_v2.json: 段落+页为单位的json</p>
@@ -298,15 +298,15 @@ https://github.com/opendatalab/MinerU-Ecosystem/tree/main/sdk</td>
 
 对话中直接使用
 
-<img src="03课：MinerU 在线 API 实战教程/03课：MinerU 在线 API 实战教程 - 文档 - media/media/image2.png" style="width:3.25in;height:2.6875in" />
+<img src="03课：MinerU 在线 API 实战教程 - 文档 - media/media/image2.png" style="width:3.25in;height:2.6875in" />
 
 **Cursor中只用SDK示例**
 
-<img src="03课：MinerU 在线 API 实战教程/03课：MinerU 在线 API 实战教程 - 文档 - media/media/image3.png" style="width:1.64583in;height:4.63542in" />
+<img src="03课：MinerU 在线 API 实战教程 - 文档 - media/media/image3.png" style="width:1.64583in;height:4.63542in" />
 
 **五、实战 A —— 将有价值的文档或网页变成可复用的飞书知识库**
 
-<img src="03课：MinerU 在线 API 实战教程/03课：MinerU 在线 API 实战教程 - 文档 - media/media/image4.png" style="width:5.75in;height:2.26042in" />
+<img src="03课：MinerU 在线 API 实战教程 - 文档 - media/media/image4.png" style="width:5.75in;height:2.26042in" />
 
 1\. **具体场景**
 
@@ -334,11 +334,11 @@ https://clawhub.ai/mineru-extract/mineru-document-extractor 装一下这个skill
 </tbody>
 </table>
 
-<img src="03课：MinerU 在线 API 实战教程/03课：MinerU 在线 API 实战教程 - 文档 - media/media/image5.png" style="width:5.35417in;height:2.08333in" />
+<img src="03课：MinerU 在线 API 实战教程 - 文档 - media/media/image5.png" style="width:5.35417in;height:2.08333in" />
 
 4\. **随手保存知识库，有空的时候再阅读**
 
-<img src="03课：MinerU 在线 API 实战教程/03课：MinerU 在线 API 实战教程 - 文档 - media/media/image6.png" style="width:5.75in;height:3.20833in" />
+<img src="03课：MinerU 在线 API 实战教程 - 文档 - media/media/image6.png" style="width:5.75in;height:3.20833in" />
 
 **六、实战 B —— 三个函数把繁琐的发票快速生成汇总表**
 

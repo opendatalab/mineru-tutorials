@@ -45,7 +45,7 @@
 
 **一、部署路线图**
 
-<img src="02课：MinerU 多环境部署实践：从开源容器化到信创生态适配/02课：MinerU 多环境部署实践：从开源容器化到信创生态适配 - 文档 - media/media/image1.jpeg" style="width:5.75in;height:5.75in" />
+<img src="02课：MinerU 多环境部署实践：从开源容器化到信创生态适配 - 文档 - media/media/image1.jpeg" style="width:5.75in;height:5.75in" />
 
 在开始安装之前，先确定自己应该走哪条路径。
 
@@ -721,7 +721,7 @@ docker compose -f compose.yaml --profile gradio up -d</td>
 
 1\. **MinerU-HTML 架构图**
 
-<img src="02课：MinerU 多环境部署实践：从开源容器化到信创生态适配/02课：MinerU 多环境部署实践：从开源容器化到信创生态适配 - 文档 - media/media/image2.png" style="width:5.75in;height:4.77083in" />
+<img src="02课：MinerU 多环境部署实践：从开源容器化到信创生态适配 - 文档 - media/media/image2.png" style="width:5.75in;height:4.77083in" />
 
 MinerU-HTML 是一个面向 HTML 内容的抽取与理解流水线。它从输入的 HTML 页面出发，先进行“HTML 简化”，去除与语义无关的噪声与冗余结构；随后根据目标任务自动“提示词构建”，把页面要点组织成适合大模型推理的上下文与指令。接着进入“LLM 推理”阶段，调用后端的大语言模型产出结构化或半结构化结果。推理完成后，系统首先做“结果解析”，将模型输出还原为可操作的数据结构；并行地，它还会进行“正文提取”，将页面中的主体文本与关键信息抽离出来。得到的内容再经过“格式转换”，统一为所需的下游格式；若中途出现异常或页面不适配，系统通过“回退处理”选择合适的兜底策略，保证流程稳健。
 

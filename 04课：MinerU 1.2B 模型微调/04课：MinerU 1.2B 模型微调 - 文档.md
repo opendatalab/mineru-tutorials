@@ -84,17 +84,17 @@ git clone https://huggingface.co/opendatalab/MinerU2.5-2509-1.2B</td>
 
 > https://www.heywhale.com/org/sh_AI%20Lab/coc-invitation/267d452ec2139f76794b4499#
 >
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image1.png" style="width:5.75in;height:3.01042in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image1.png" style="width:5.75in;height:3.01042in" />
 >
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image2.png" style="width:5.75in;height:4.625in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image2.png" style="width:5.75in;height:4.625in" />
 
 成功创建项目后，点击右上角【运行按钮】运行项目，点击【设置按钮】可修改算力资源及镜像（此处用默认的配置即可，不需要修改，后续需要修改学员可自行进行调整），在【其他设置】勾选【使用个人磁盘】开启个人work目录。
 
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image3.png" style="width:5.75in;height:2.94792in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image3.png" style="width:5.75in;height:2.94792in" />
 >
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image4.png" style="width:5.75in;height:5.4375in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image4.png" style="width:5.75in;height:5.4375in" />
 >
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image5.png" style="width:5.75in;height:2.76042in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image5.png" style="width:5.75in;height:2.76042in" />
 >
 > **work目录（用户工作区）**：写到该目录下的文件将被持久化存储，支持跨项目读写，不支持协作分享，访问路径为 /home/mw/work/。
 >
@@ -102,25 +102,25 @@ git clone https://huggingface.co/opendatalab/MinerU2.5-2509-1.2B</td>
 
 待右上角显示资源已链接后可以逐条运行代码，也可点击【运行所有】一键运行全部代码。
 
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image6.png" style="width:5.75in;height:3.01042in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image6.png" style="width:5.75in;height:3.01042in" />
 
 如果需要修改使用数据，可点击侧边栏修改挂载的数据和模型（可以使用自己创建的或他人共享的数据）。
 
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image7.png" style="width:5.36458in;height:3.69792in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image7.png" style="width:5.36458in;height:3.69792in" />
 >
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image8.png" style="width:5.75in;height:4.05208in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image8.png" style="width:5.75in;height:4.05208in" />
 
 结束后点击右上角关闭实例释放资源，避免造成资源浪费。
 
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image9.png" style="width:5.75in;height:2.44792in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image9.png" style="width:5.75in;height:2.44792in" />
 
 后续可在平台左侧【项目】或【我的空间】列表查看该项目，也可自己创建新的项目
 
-> <img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image10.png" style="width:5.75in;height:1.88542in" />
+> <img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image10.png" style="width:5.75in;height:1.88542in" />
 
 更多平台使用技巧可参考训练营介绍页面的平台使用教程
 
-<img src="04课：MinerU 1.2B 模型微调/04课：MinerU 1.2B 模型微调 - 文档 - media/media/image11.png" style="width:5.75in;height:4.33333in" />
+<img src="04课：MinerU 1.2B 模型微调 - 文档 - media/media/image11.png" style="width:5.75in;height:4.33333in" />
 
 除了使用官方平台外，也可以在自己本地环境进行微调。
 
