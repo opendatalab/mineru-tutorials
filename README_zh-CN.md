@@ -43,6 +43,7 @@
 | 02-2 | MinerU-HTML 项目部署实践 | [文档](./02课：MinerU%20多环境部署实践：从开源容器化到信创生态适配/02课：MinerU%20多环境部署实践：从开源容器化到信创生态适配%20-%20文档.md) | [PDF](./02课：MinerU%20多环境部署实践：从开源容器化到信创生态适配/02-2：MinerU-HTML%20项目/02-2：MinerU-HTML%20项目%20-%20课件.pdf) | [B 站](https://www.bilibili.com/video/BV1oV9LBTEKg/) |
 | 03 | MinerU 在线 API 实战教程 | [文档](./03课：MinerU%20在线%20API%20实战教程/03课：MinerU%20在线%20API%20实战教程%20-%20文档.md) | [PDF](./03课：MinerU%20在线%20API%20实战教程/03课：MinerU%20在线%20API%20实战教程%20-%20课件.pdf) | [B 站](https://www.bilibili.com/video/BV1gJDLBpEdN/) |
 | 04 | MinerU 1.2B 模型微调 | [文档](./04课：MinerU%201.2B%20模型微调/04课：MinerU%201.2B%20模型微调%20-%20文档.md) | [PDF](./04课：MinerU%201.2B%20模型微调/04课：MinerU%201.2B%20模型微调%20-%20课件.pdf) | [B 站](https://www.bilibili.com/video/BV19SQJB3Edz/) |
+| 04-扩展 | MinerU 1.2B 模型微调入门教程：沐曦版 | [文档](./04课：MinerU%201.2B%20模型微调/04-扩展：MinerU%201.2B%20模型微调入门教程-沐曦版/04-扩展：MinerU%201.2B%20模型微调入门教程-沐曦版%20-%20文档.md) | [PDF](./04课：MinerU%201.2B%20模型微调/04-扩展：MinerU%201.2B%20模型微调入门教程-沐曦版/04-扩展：MinerU%201.2B%20模型微调入门教程-沐曦版%20-%20文档.pdf) | - |
 | 05 | OpenClaw Skill 开发实践：基于 MinerU 的文档灵活问答 | [文档](./05课：OpenClaw%20Skill%20开发实践：基于MinerU%20的文档灵活问答/05课：OpenClaw%20Skill%20开发实践：基于MinerU%20的文档灵活问答%20-%20文档.md) | [PDF](./05课：OpenClaw%20Skill%20开发实践：基于MinerU%20的文档灵活问答/05课：OpenClaw%20Skill%20开发实践：基于MinerU%20的文档灵活问答%20-%20课件.pdf) | [B 站](https://www.bilibili.com/video/BV1oXopBeEGZ/) |
 | 06 | Vibe Coding 实战：基于 MinerU 搭建 AI Agent | [文档](./06课：Vibe%20Coding%20实战：基于MinerU%20搭建AI%20Agent/06课：Vibe%20Coding%20实战：基于MinerU%20搭建AI%20Agent%20-%20文档.md) | [PDF](./06课：Vibe%20Coding%20实战：基于MinerU%20搭建AI%20Agent/06课：Vibe%20Coding%20实战：基于MinerU%20搭建AI%20Agent%20-%20课件.pdf) | [B 站](https://www.bilibili.com/video/BV1ZY9UBYEco/) |
 | 07 | MinerU-HTML 解析效能验证：基于 Dingo 的量化评测方法 | [文档](./07课：MinerU-HTML%20解析效能验证：基于%20Dingo%20的量化评测方法/07课：MinerU-HTML%20解析效能验证：基于%20Dingo%20的量化评测方法%20-%20文档.md) | [PDF](./07课：MinerU-HTML%20解析效能验证：基于%20Dingo%20的量化评测方法/07课：MinerU-HTML%20解析效能验证：基于%20Dingo%20的量化评测方法%20-%20课件.pdf) | [B 站](https://www.bilibili.com/video/BV1EB98B7EGV/) |
@@ -59,6 +60,7 @@
 │   └── 02-2：MinerU-HTML 项目/
 ├── 03课：MinerU 在线 API 实战教程/
 ├── 04课：MinerU 1.2B 模型微调/
+│   └── 04-扩展：MinerU 1.2B 模型微调入门教程-沐曦版/
 ├── 05课：OpenClaw Skill 开发实践：基于MinerU 的文档灵活问答/
 ├── 06课：Vibe Coding 实战：基于MinerU 搭建AI Agent/
 ├── 07课：MinerU-HTML 解析效能验证：基于 Dingo 的量化评测方法/
